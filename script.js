@@ -14,11 +14,7 @@ if (menuBtn && navLinks) {
         });
 
     });
-
 }
-
-
-/* Dark Mode */
 
 const themeBtn = document.getElementById("themeBtn");
 
@@ -55,8 +51,6 @@ if (themeBtn) {
 
 }
 
-
-/* Contact Form */
 
 const contactForm = document.getElementById("contactForm");
 const formMessage = document.getElementById("formMessage");
@@ -137,8 +131,6 @@ if (contactForm) {
 }
 
 
-/* Get Messages from Local Storage */
-
 function getMessages() {
 
     return JSON.parse(
@@ -147,8 +139,6 @@ function getMessages() {
 
 }
 
-
-/* Display Messages in Admin Panel */
 
 function displayMessages() {
 
@@ -265,8 +255,6 @@ function deleteMessage(id) {
 }
 
 
-/* Clear All Messages */
-
 const clearMessages =
     document.getElementById("clearMessages");
 
@@ -300,8 +288,6 @@ if (clearMessages) {
 
 }
 
-
-/* Admin Login */
 
 const loginForm =
     document.getElementById("loginForm");
@@ -399,9 +385,6 @@ if (loginForm) {
 
 }
 
-
-/* Logout */
-
 const logoutBtn =
     document.getElementById("logoutBtn");
 
@@ -426,7 +409,6 @@ if (logoutBtn) {
 }
 
 
-/* Escape HTML */
 
 function escapeHTML(value) {
 
@@ -441,7 +423,5 @@ function escapeHTML(value) {
 
 }
 
-
-/* Display Saved Messages */
 
 displayMessages();

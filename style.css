@@ -284,8 +284,6 @@ header {
 }
 
 
-/* Experience */
-
 .experience {
     max-width: 900px;
     margin: auto;
@@ -458,8 +456,6 @@ th {
 }
 
 
-/* Footer */
-
 footer {
     background: #0f172a;
     color: white;
@@ -497,8 +493,6 @@ footer {
     color: #94a3b8;
 }
 
-
-/* Dark Mode */
 
 body.dark {
     background: #0f172a;
